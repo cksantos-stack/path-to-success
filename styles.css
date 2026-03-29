@@ -139,7 +139,6 @@ table {
 }
 
 /* ROOT VARIABLES */
-/* GLOBAL STYLES (mobile first/small) */
 :root {
     --teal: #4CA7C0;
     --purple: #484FB7;
@@ -149,3 +148,5 @@ table {
     --dk-gray: #1E1E1E;
     --white: #ffffff;
 }
+
+/* GLOBAL STYLES (mobile first/small) */
