@@ -206,11 +206,16 @@ main {
     margin: 10px 20px;
 }
 
+.menu a:hover {
+    text-decoration: underline;
+}
+
 #services {
     background-color: var(--purple);
     padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
 }
 
 h3 {
@@ -235,10 +240,64 @@ h4 {
 .services-content {
     background-color: var(--white);
     border-radius: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
     line-height: 1.5;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
+#why {
+    background-color: var(--pink);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#why h2 {
+    color: var(--white);
+    font-family: 'Kavoon', Arial, sans-serif;
+    font-size: 2rem;
+    padding-top: 15px;
+}
+
+#why ul{
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 15px 15px;
+}
+
+#why li{
+    font-weight: bold;
+}
+
+#why li:nth-child(1){
+    background-color: var(--teal);
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#why li:nth-child(2){
+    background-color: var(--lavender);
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#why li:nth-child(3){
+    background-color: var(--yellow);
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#why li:nth-child(4){
+    background-color: var(--white);
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
