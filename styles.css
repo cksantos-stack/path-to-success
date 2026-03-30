@@ -301,3 +301,9 @@ h4 {
     border-radius: 10px;
     font-size: 20px;
 }
+
+#prices h2{
+    font-family: 'Kavoon', Arial, sans-serif;
+    color: var(--white);
+    font-size: 2rem;
+}
