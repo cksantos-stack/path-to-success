@@ -262,7 +262,7 @@ h4 {
     padding-top: 15px;
 }
 
-#why ul{
+#why ul {
     padding-top: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -270,32 +270,32 @@ h4 {
     gap: 15px 15px;
 }
 
-#why li{
+#why li {
     font-weight: bold;
 }
 
-#why li:nth-child(1){
+#why li:nth-child(1) {
     background-color: var(--teal);
     padding: 25px;
     border-radius: 10px;
     font-size: 20px;
 }
 
-#why li:nth-child(2){
+#why li:nth-child(2) {
     background-color: var(--lavender);
     padding: 25px;
     border-radius: 10px;
     font-size: 20px;
 }
 
-#why li:nth-child(3){
+#why li:nth-child(3) {
     background-color: var(--yellow);
     padding: 25px;
     border-radius: 10px;
     font-size: 20px;
 }
 
-#why li:nth-child(4){
+#why li:nth-child(4) {
     background-color: var(--white);
     padding: 25px;
     border-radius: 10px;
