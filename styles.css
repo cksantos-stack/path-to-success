@@ -242,7 +242,7 @@ h4 {
     border-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 30px;
     line-height: 1.5;
     margin-bottom: 20px;
@@ -302,8 +302,62 @@ h4 {
     font-size: 20px;
 }
 
-#prices h2{
+#prices {
+    background-color: var(--purple);
+    padding: 10px;
+}
+
+#prices h2 {
     font-family: 'Kavoon', Arial, sans-serif;
     color: var(--white);
     font-size: 2rem;
 }
+
+#prices h3 {
+    padding-top: 5px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th {
+    background-color: var(--yellow);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    padding-right: 15px;
+    border: 2px solid var(--yellow);
+
+}
+
+td {
+    background-color: var(--white);
+    padding: 10px;
+    border: 2px solid var(--yellow);
+    text-align: center;
+}
+
+#take {
+    background-color: var(--pink);
+    padding: 15px;
+}
+
+#take h2 {
+    color: var(--white);
+    font-size: 2em;
+    font-family: 'Kavoon', Arial, sans-serif;
+}
+
+#take p {
+    color: var(--white);
+}
+
+#take a{
+    display: block;
+    text-align: center;
+    background-color: var(--white);
+    box-shadow: ;
+}
+
