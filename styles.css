@@ -172,6 +172,36 @@ header p {
 }
 
 h1 {
-    font-family: 'kavoon', Arial, sans-serif;
+    font-family: 'Kavoon', Arial, sans-serif;
     font-size: 3rem;
+}
+
+main {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: var(--yellow);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.menu h2 {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.menu a{
+    display: block;
+    background-color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    color: var(--purple);
+    font-weight: bold;
+    padding: 10px;  
+    margin: 10px 20px;
 }
