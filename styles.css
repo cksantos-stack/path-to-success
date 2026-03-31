@@ -381,11 +381,25 @@ footer {
     background-color: var(--purple);
     margin: 0 auto;
     justify-content: center;
-    align-items: center;      
+    align-items: center;
+    color: var(--white);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 13px;
+}
 
-}   
+footer a {
+    color: var(--white);
+}
 
-footer p{
+footer p {
     margin: 0;
     margin-left: 20px;
+    color: var(--white);
+}
+
+footer small {
+    margin: 0;
+    margin-right: 20px;
+
 }
